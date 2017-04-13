@@ -1,0 +1,224 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 15:09:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-13 16:18:21
+*/
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust:none;
+}
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+	/* -webkit-appearance: none; */
+	/* -webkit-text-size-adjust:100%; */
+	/* -webkit-user-select:none; */
+	/* -webkit-overflow-scrolling:touch; */
+	/* -webkit-transform: translate3d(0, 0, 0); */
+	/* transform: translate3d(0, 0, 0); */
+	-webkit-user-select:none;
+	user-select:none;
+	/* -webkit-tap-highlight-color:rgba(255,255,255,0); */
+	-webkit-text-size-adjust: 100%;
+  	 text-size-adjust: 100%;
+  	 font-family: 苹方;
+	
+}
+body{
+ 	font-family:Helvetica;
+ 	background: #F5F6FA;
+ 	font-size: 12px;
+}
+body,html{
+ 	width: 100%;
+ 	height: 100%;
+ 	overflow: hidden;
+}
+body{
+ 	overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+.sign-beijing{
+	width: 100%;
+	height: 100%;
+	background: url('../img/beijing.png') center center no-repeat;
+	background-size: cover;
+}
+.sign-beijing .sign-top{
+	width: 100%;
+	height: 0.88rem; 
+}
+.sign-beijing .sign-top .left{
+	display: block;
+	width: 0.44rem;
+	height: 0.44rem;
+	margin-left: 0.24rem;
+	margin-top: 0.28rem;
+	background: url('../img/sign_01.png') center center no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.sign-beijing .form{
+	width: 5.57rem;
+	height: 3.7rem;
+	margin: 0 auto;
+}
+.sign-beijing .sign-f{
+	width: 5.05rem;
+	height: 0.82rem;
+	background: #fff;
+	border-radius: .4rem;
+	margin: 0 auto;
+	margin-top: 1.73rem;
+	position: relative;
+	box-shadow: .5px .5px 4px 0.3px #ccc;
+	color: #303030;
+	font-size: 0.24rem;
+}
+.sign-beijing .sign-f>div{
+	width: .36rem;
+	height: .36rem;
+	background: #1f7be8;
+	border-radius: 50%;
+	position: absolute;
+	top: .2rem;
+	left: .2rem;
+}
+.sign-beijing .sign-f>input{
+	width: 4rem;
+	margin-top: .24rem;
+	margin-left: .7rem;
+	border: none;
+	outline: none;
+	font-size: .24rem;
+}
+.sign-beijing .sign-f>input:focus{
+	color: #303030;
+}
+.sign-beijing .sign-ff{
+	width: 5.05rem;
+	height: 0.82rem;
+	margin: 0 auto;
+	margin-top: .61rem;
+	position: relative;
+	color: #303030;
+	display: flex;
+}
+.sign-beijing .sign-ff .sign-f1{
+	width: 2.28rem;
+	height: 0.82rem;
+	background: #fff;
+	border-radius: .4rem;
+	position: relative;
+	box-shadow: .5px .5px 4px 0.3px #ccc;
+	color: #1f7be8;
+	font-size: 0.24rem;
+	margin-right: .4rem;
+	text-align: center;
+	line-height: .82rem;
+}
+.sign-beijing .sign-ff .sign-f1>div:nth-child(1){
+	width: .1rem;
+	height: .1rem;
+	background: #FF0000;
+	position: absolute;
+	top: .35rem;
+	left: .27rem;
+	border-radius: 50%;
+}
+.sign-beijing .sign-ff .sign-f1>div:nth-child(2){
+	width: .1rem;
+	height: .1rem;
+	background: #FF0000;
+	position: absolute;
+	top: .35rem;
+	left: .48rem;
+	border-radius: 50%;
+}
+.sign-beijing .sign-ff .sign-f11{
+	margin-right: 0;
+}
+.sign-beijing .sign-ff .sign-f1>input{
+	width: 1rem;
+	margin-top: .24rem;
+	margin-left: .7rem;
+	border: none;
+	outline: none;
+	background: none;
+}
+.sign-beijing .sign-f3{
+	width: 5rem;
+	height: .4rem;
+	margin: 0 auto;
+	margin-top: .54rem;
+	margin-bottom: .54rem;
+	display: flex;
+	position: relative;
+}
+.sign-beijing .sign-f3>div{
+	width: .25rem;
+	height: .25rem;
+	background: rgba(255, 255, 255, .8);
+	border-radius: 50%;
+	position: absolute;
+	top: 0.04rem;
+	left: 0;
+}
+.sign-beijing .sign-f3 h1{
+	width: 1.11rem;
+	color: #fff;
+	font-size: .24rem;
+	margin-left: .34rem;
+}
+.sign-beijing .sign-f3 h1{
+	width: 1.11rem;
+	color: #fff;
+	font-size: .24rem;
+	margin-left: .34rem;
+}
+.sign-beijing .sign-f3>a{
+	display: block;
+	width: 1.4rem;
+	color: #fff;
+	font-size: .24rem;
+	margin-left: 2.3rem;
+	font-weight: bold;
+}
+
+.sign-beijing .sign-f2{
+	width: 5.01rem;
+	height: 0.82rem;
+	border-radius: .6rem;
+	margin: 0 auto;
+	margin-top: .38rem;
+	background: #fff;
+	box-shadow: .5px .5px 4px 0.3px #ccc;
+}
+.sign-beijing .sign-f2>input{
+	height: auto;
+	margin-left: 0.22rem;
+	width: 4.6rem;
+	text-align: center;
+	margin-top: 0.22rem;
+	background: none;
+	outline: none;
+	border: none;
+	color: #DBD8D8;
+	font-size: .36rem;
+}
+/* 键盘 */
+.sign-beijing .bottom{
+	width: 100%;
+	height: auto;
+}
+.sign-beijing .bottom>img{
+	width: 100%;
+	height: 5.12rem;
+	margin-top: 1.61rem;
+}

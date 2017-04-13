@@ -1,0 +1,253 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 15:09:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-13 13:15:09
+*/
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+	-webkit-text-size-adjust:none;
+}
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+	/* -webkit-appearance: none; */
+	/* -webkit-text-size-adjust:100%; */
+	/* -webkit-user-select:none; */
+	/* -webkit-overflow-scrolling:touch; */
+	/* -webkit-transform: translate3d(0, 0, 0); */
+	/* transform: translate3d(0, 0, 0); */
+	-webkit-user-select:none;
+	user-select:none;
+	/* -webkit-tap-highlight-color:rgba(255,255,255,0); */
+	-webkit-text-size-adjust: 100%;
+  	 text-size-adjust: 100%;
+  	 font-family: 苹方;
+	
+}
+body{
+ 	background: #F5F6FA;
+ 	font-size: 12px;
+}
+body,html{
+ 	width: 100%;
+ 	height: 100%;
+ 	overflow: hidden;
+}
+body{
+ 	overflow: scroll;
+ 	background: #F0F0F0;
+}
+a{
+	text-decoration: none;
+}
+
+.sign-nav{
+	width: 100%;
+	height: .89rem;
+	background: #1B73D7;
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.sign-nav h1{
+	font-size: .3rem;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin-top: .07rem;
+
+}
+.sign-nav>span{
+	display: block;
+	font-size: .24rem;
+	color: #fff;
+	text-align: center;
+	font-family:San Francisco Display;	
+}
+.sign-header{
+	display: block;
+	width: 7.09rem;
+	height: 2.34rem;
+	background: #fff;
+	border-radius: .15rem;
+	margin: 0 auto;
+	margin-top: .4rem;
+	display: flex;
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.sign-header>img{
+	width: 1.75rem;
+	height: 1.75rem;
+	margin: .24rem 0 0 .19rem;
+}
+.sign-header .right{
+	width: 3.75rem;
+	height: 100%;
+	line-height: .45rem;
+	margin-top: .49rem;
+	padding: 0 0 0 .2rem;
+	box-sizing: border-box;
+}
+.sign-header .right h2{
+	font-size: .36rem;
+	color: #2A2A2A;
+	text-align: left;	
+}
+.sign-header .right>span{
+	display: block;
+	font-size: .30rem;
+	color: #C0C0C0;
+	text-align: left;	
+}
+.sign-header .right h3{
+	font-size: .24rem;
+	color: #A8A8A8;
+	text-align: left;	
+}
+.sign-header .jian{
+	width: .27rem;
+	height: .38rem;
+	background: url('../img/per/sign-per_02.png') center center no-repeat;
+	background-size: contain;
+	margin: 1.06rem  0  0 .73rem;
+}
+
+.sign-center{
+	width:7.09rem;
+	height: 1.17rem;
+	margin: 0 auto;
+	margin-top: .83rem;
+	display: flex;
+}
+.sign-center>div{
+	width: 2.2rem;
+	height: 100%;
+	background: #fff;
+	border-radius: .2rem;
+	line-height: .33rem;
+	padding: .12rem 0 0 .15rem;
+	box-sizing: border-box;
+	margin-right: .27rem;
+}
+.sign-center>div:nth-child(3){
+	margin-right: 0;
+}
+.sign-center>div h4{
+	font-size: .24rem;
+	color: #323232;
+	text-align: left;
+}
+.sign-center>div h5{
+	font-size: .36rem;
+	color: #2D2D2D;
+	text-align: left;
+	font-weight: bold;
+}
+.sign-center>div h6{
+	font-size: .30rem;
+	color: #343434;
+	text-align: left;
+	font-family:San Francisco Display;
+}
+
+
+.sign-bottom{
+	width:7.09rem;
+	height: .93rem;
+	margin: 0 auto;
+	margin-top: .09rem;
+	display: flex;
+	background: #fff;
+	border-radius: .15rem;
+	border-top: 1px solid rgba(0, 0, 0, 0);
+	position: relative;
+}
+.b1{
+	margin-top: .54rem;
+}
+.sign-bottom>img{
+	width: .48rem;
+	height: .48rem;
+	margin:.25rem 0 0 .25rem;
+}
+.sign-bottom>h1{
+	width: 3.53rem;
+	height: .42rem;
+	font-size: .3rem;
+	color: #323232;
+	text-align: left;
+	line-height: .42rem;
+	margin:.25rem 0 0 .2rem;
+
+}
+.sign-bottom>h1>span{
+	font-size: .24rem;
+	color: #323232;
+}
+.sign-bottom .l{
+	width: .1rem;
+	height: .1rem;
+	background: #FEE03A;
+	border-radius: 50%;
+	position: absolute;
+	top: .45rem;
+	left: 2.9rem;
+}
+.sign-bottom .y{
+	width: .37rem;
+	height: .37rem;
+	background: #1B73D7;
+	border-radius: 50%;
+	position: absolute;
+	margin: .27rem 0 0 6.39rem;
+	padding: .03rem 0 0 .14rem;
+	box-sizing: border-box;
+}
+.sign-bottom .y>img{
+	width: .1rem;
+	height: .19rem;
+}
+.sign-bottom .l1{
+	position: absolute;
+	top: .45rem;
+	left: 3.86rem;
+}
+.sign-bottom .l2{
+	position: absolute;
+	top: .45rem;
+	left: 3.53rem;
+}
+.sign-foot1{
+	width: 100%;
+	height: .04rem;
+	background: #1868C2;
+	position: absolute;
+	bottom: 1.13rem;
+	left: 0;
+}
+.sign-foot{
+	width: 100%;
+	height: 1.13rem;
+	background: #1B73D7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.sign-foot>a{
+	display: inline-block;
+	width: .83rem;
+	height: .83rem;
+	margin-right: .98rem;
+	margin-top: .15rem;
+}
+.sign-foot>a>img{
+	width: .83rem;
+	height: .83rem;
+}
+.sign-foot>a:nth-child(4){
+	margin-right: 0;
+}
